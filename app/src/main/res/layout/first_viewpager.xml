@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/first_pager"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="230dp" />
+<LinearLayout
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="90dp">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/year_happy1"
+            android:id="@+id/year_happy1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <TextView
+            android:gravity="center"
+            android:text="每日签到"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:id="@+id/year_happy2"
+            android:src="@drawable/year_happy2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <TextView
+            android:gravity="center"
+            android:text="积分商城"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+    </LinearLayout>
+ <LinearLayout
+     android:orientation="vertical"
+     android:layout_weight="1"
+     android:layout_width="match_parent"
+     android:layout_height="80dp">
+     <ImageView
+         android:id="@+id/year_happy3"
+         android:src="@drawable/year_happy3"
+         android:layout_width="match_parent"
+         android:layout_height="50dp" />
+     <TextView
+         android:gravity="center"
+         android:text="兑换专区"
+         android:layout_width="match_parent"
+         android:layout_height="30dp" />
+ </LinearLayout>
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_weight="1"
+      android:layout_width="match_parent"
+      android:layout_height="80dp">
+      <ImageView
+          android:id="@+id/year_happy4"
+          android:src="@drawable/year_happy4"
+          android:layout_width="match_parent"
+          android:layout_height="50dp" />
+      <TextView
+          android:gravity="center"
+          android:text="真假查询"
+          android:layout_width="match_parent"
+          android:layout_height="30dp" />
+  </LinearLayout>
+
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+  <!--      <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <ImageView
+                android:src="@drawable/year_happy5"
+                android:id="@+id/year_happy5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <TextView
+                android:gravity="center"
+                android:text="邀请有礼"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </LinearLayout>
+<LinearLayout
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+    <ImageView
+        android:id="@+id/year_happy6"
+        android:src="@drawable/year_happy6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:gravity="center"
+        android:text="积分抵现"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+</LinearLayout>
+      <LinearLayout
+          android:layout_weight="1"
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="80dp">
+          <ImageView
+              android:id="@+id/year_happy7"
+              android:src="@drawable/year_happy7"
+              android:layout_width="match_parent"
+              android:layout_height="50dp" />
+          <TextView
+              android:gravity="center"
+              android:text="扫货攻略"
+              android:layout_width="match_parent"
+              android:layout_height="30dp" />
+      </LinearLayout>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+    <ImageView
+        android:id="@+id/year_happy8"
+        android:src="@drawable/year_happy8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:gravity="center"
+        android:text="刷脸测尺寸"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+</LinearLayout>-->
+    </LinearLayout>
+</LinearLayout>
+    <TextView
+        android:background="@color/secondary_text"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <TextView
+        android:gravity="center"
+        android:text="--  优惠活动  --"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+        <shop.yunifang.com.yunifang.view.ZoomViewPager
+            android:scaleType="fitXY"
+            android:id="@+id/youhui_viewpager"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp" />
+    <TextView
+        android:background="@color/secondary_text"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <TextView
+        android:gravity="center"
+        android:text="--  热门专题  --"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+</LinearLayout>
