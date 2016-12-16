@@ -68,7 +68,7 @@ public class PullToGwAdapter extends BaseAdapter{
             });
         return view;
     }
-
+//sss
     class ViewHolder{
         ImageView gwimg;
         Button but;
